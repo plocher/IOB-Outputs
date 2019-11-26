@@ -1,0 +1,4 @@
+IOB Interface provides 1x IO4 port with 4x open drain output i/o lines.
+
+Changes: Output only - non-inverting Open Drain current sink
+
