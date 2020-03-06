@@ -2,6 +2,7 @@
 ## License: CERN Open Hardware Licence v1.2
 
 Output only - non-inverting Open Drain current sink
+New IOB design
 
 
 PNP Ready: Panelized IOB quad "output board", used for driving LEDS and other devices from the [I2C-7311](/pages/I2C-7311) IO expansion board
