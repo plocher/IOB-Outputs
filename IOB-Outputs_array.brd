@@ -158,7 +158,7 @@
 <board>
 <plain>
 <text x="27.94" y="14.351" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="45.085" y="9.779" size="1.27" layer="21" font="vector" rot="R90">2.0</text>
+<text x="45.085" y="9.779" size="1.27" layer="21" font="vector" rot="R90">3.0</text>
 <text x="75.819" y="14.224" size="1.143" layer="21" font="vector" rot="R90">Open Drain
 Outputs</text>
 <text x="35.052" y="25.4" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
@@ -178,7 +178,7 @@ Outputs</text>
 <text x="55.626" y="22.6695" size="1.016" layer="125" font="vector" rot="R180">R3</text>
 <text x="55.626" y="26.9875" size="1.016" layer="125" font="vector" rot="R180">R4</text>
 <text x="27.94" y="34.671" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="45.085" y="30.099" size="1.27" layer="21" font="vector" rot="R90">2.0</text>
+<text x="45.085" y="30.099" size="1.27" layer="21" font="vector" rot="R90">3.0</text>
 <text x="75.819" y="34.544" size="1.143" layer="21" font="vector" rot="R90">Open Drain
 Outputs</text>
 <text x="35.052" y="45.72" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
@@ -198,7 +198,7 @@ Outputs</text>
 <text x="55.626" y="42.9895" size="1.016" layer="125" font="vector" rot="R180">R3</text>
 <text x="55.626" y="47.3075" size="1.016" layer="125" font="vector" rot="R180">R4</text>
 <text x="27.94" y="54.991" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="45.085" y="50.419" size="1.27" layer="21" font="vector" rot="R90">2.0</text>
+<text x="45.085" y="50.419" size="1.27" layer="21" font="vector" rot="R90">3.0</text>
 <text x="75.819" y="54.864" size="1.143" layer="21" font="vector" rot="R90">Open Drain
 Outputs</text>
 <text x="35.052" y="66.04" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
@@ -218,7 +218,7 @@ Outputs</text>
 <text x="55.626" y="63.3095" size="1.016" layer="125" font="vector" rot="R180">R3</text>
 <text x="55.626" y="67.6275" size="1.016" layer="125" font="vector" rot="R180">R4</text>
 <text x="27.94" y="75.311" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="45.085" y="70.739" size="1.27" layer="21" font="vector" rot="R90">2.0</text>
+<text x="45.085" y="70.739" size="1.27" layer="21" font="vector" rot="R90">3.0</text>
 <text x="75.819" y="75.184" size="1.143" layer="21" font="vector" rot="R90">Open Drain
 Outputs</text>
 <text x="35.052" y="86.36" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
@@ -239,8 +239,8 @@ Black Silkscreen</text>
 <text x="55.753" y="79.1845" size="1.016" layer="125" font="vector" rot="R180">R2</text>
 <text x="55.626" y="83.6295" size="1.016" layer="125" font="vector" rot="R180">R3</text>
 <text x="55.626" y="87.9475" size="1.016" layer="125" font="vector" rot="R180">R4</text>
-<text x="80.391" y="93.345" size="1.778" layer="21" font="vector">2020.03</text>
-<text x="80.899" y="95.885" size="1.778" layer="21" font="vector">2.0</text>
+<text x="80.391" y="92.71" size="1.778" layer="21" font="vector">2020.03</text>
+<text x="80.899" y="95.885" size="1.778" layer="21" font="vector">v3.0</text>
 </plain>
 <libraries>
 <library name="SPCoast">

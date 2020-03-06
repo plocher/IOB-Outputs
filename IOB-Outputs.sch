@@ -1283,9 +1283,9 @@ By microbuilder.eu&lt;/p&gt;</description>
 <sheet>
 <plain>
 <text x="149.86" y="20.32" size="3.81" layer="91">IO4 Quad Output</text>
-<text x="238.76" y="12.7" size="3.81" layer="91">2.0</text>
-<text x="238.506" y="6.858" size="1.4224" layer="91">2019-11</text>
-<text x="7.62" y="180.34" size="1.27" layer="102">Changes: Output only - non-inverting Open Drain current sink</text>
+<text x="238.76" y="12.7" size="3.81" layer="91">3.0</text>
+<text x="238.506" y="6.858" size="1.4224" layer="91">2020.03</text>
+<text x="7.62" y="180.34" size="1.27" layer="102">Changes: New IOB design</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="FRAME" x="0" y="0"/>
