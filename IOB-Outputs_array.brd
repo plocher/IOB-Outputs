@@ -70,7 +70,7 @@
 <layer number="101" name="Hidden" color="57" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Changes" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="103" name="tMap" color="29" fill="4" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
@@ -91,7 +91,7 @@
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="1" fill="1" visible="no" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
@@ -647,66 +647,66 @@ design rules under a new name.
 <element name="CON1X11" library="SPCoast" package="RJ24-INVERTED-PINS" value="" x="32.385" y="17.78" rot="R90"/>
 <element name="FID1X11" library="SPCoast" package="FIDUCIAL_1MM" value="" x="41.275" y="10.287"/>
 <element name="FID2X11" library="SPCoast" package="FIDUCIAL_1MM" value="" x="76.835" y="27.305"/>
-<element name="Q1X11" library="SPCoast" package="SOT23-3" value="" x="49.53" y="13.335"/>
-<element name="Q2X11" library="SPCoast" package="SOT23-3" value="" x="49.53" y="17.78"/>
-<element name="Q3X11" library="SPCoast" package="SOT23-3" value="" x="49.53" y="22.225"/>
-<element name="Q4X11" library="SPCoast" package="SOT23-3" value="" x="49.53" y="26.67"/>
-<element name="Q5X11" library="SPCoast" package="SOT23-3" value="" x="60.96" y="12.7" rot="R90"/>
-<element name="Q6X11" library="SPCoast" package="SOT23-3" value="" x="60.96" y="21.59" rot="R90"/>
-<element name="Q7X11" library="SPCoast" package="SOT23-3" value="" x="60.96" y="17.145" rot="R90"/>
-<element name="Q8X11" library="SPCoast" package="SOT23-3" value="" x="60.96" y="26.035" rot="R90"/>
-<element name="R1X11" library="SPCoast" package="0805-RES" value="" x="54.61" y="11.43" rot="R180"/>
-<element name="R2X11" library="SPCoast" package="0805-RES" value="" x="54.61" y="15.875" rot="R180"/>
-<element name="R3X11" library="SPCoast" package="0805-RES" value="" x="54.61" y="20.32" rot="R180"/>
-<element name="R4X11" library="SPCoast" package="0805-RES" value="" x="54.61" y="24.765" rot="R180"/>
+<element name="Q1X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="13.335"/>
+<element name="Q2X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="17.78"/>
+<element name="Q3X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="22.225"/>
+<element name="Q4X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="26.67"/>
+<element name="Q5X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="12.7" rot="R90"/>
+<element name="Q6X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="21.59" rot="R90"/>
+<element name="Q7X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="17.145" rot="R90"/>
+<element name="Q8X11" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="26.035" rot="R90"/>
+<element name="R1X11" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="11.43" rot="R180"/>
+<element name="R2X11" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="15.875" rot="R180"/>
+<element name="R3X11" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="20.32" rot="R180"/>
+<element name="R4X11" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="24.765" rot="R180"/>
 <element name="U$1X11" library="SPCoast" package="IO4-IOB" value="" x="25.4" y="8.89"/>
 <element name="CON1X12" library="SPCoast" package="RJ24-INVERTED-PINS" value="" x="32.385" y="38.1" rot="R90"/>
 <element name="FID1X12" library="SPCoast" package="FIDUCIAL_1MM" value="" x="41.275" y="30.607"/>
 <element name="FID2X12" library="SPCoast" package="FIDUCIAL_1MM" value="" x="76.835" y="47.625"/>
-<element name="Q1X12" library="SPCoast" package="SOT23-3" value="" x="49.53" y="33.655"/>
-<element name="Q2X12" library="SPCoast" package="SOT23-3" value="" x="49.53" y="38.1"/>
-<element name="Q3X12" library="SPCoast" package="SOT23-3" value="" x="49.53" y="42.545"/>
-<element name="Q4X12" library="SPCoast" package="SOT23-3" value="" x="49.53" y="46.99"/>
-<element name="Q5X12" library="SPCoast" package="SOT23-3" value="" x="60.96" y="33.02" rot="R90"/>
-<element name="Q6X12" library="SPCoast" package="SOT23-3" value="" x="60.96" y="41.91" rot="R90"/>
-<element name="Q7X12" library="SPCoast" package="SOT23-3" value="" x="60.96" y="37.465" rot="R90"/>
-<element name="Q8X12" library="SPCoast" package="SOT23-3" value="" x="60.96" y="46.355" rot="R90"/>
-<element name="R1X12" library="SPCoast" package="0805-RES" value="" x="54.61" y="31.75" rot="R180"/>
-<element name="R2X12" library="SPCoast" package="0805-RES" value="" x="54.61" y="36.195" rot="R180"/>
-<element name="R3X12" library="SPCoast" package="0805-RES" value="" x="54.61" y="40.64" rot="R180"/>
-<element name="R4X12" library="SPCoast" package="0805-RES" value="" x="54.61" y="45.085" rot="R180"/>
+<element name="Q1X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="33.655"/>
+<element name="Q2X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="38.1"/>
+<element name="Q3X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="42.545"/>
+<element name="Q4X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="46.99"/>
+<element name="Q5X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="33.02" rot="R90"/>
+<element name="Q6X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="41.91" rot="R90"/>
+<element name="Q7X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="37.465" rot="R90"/>
+<element name="Q8X12" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="46.355" rot="R90"/>
+<element name="R1X12" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="31.75" rot="R180"/>
+<element name="R2X12" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="36.195" rot="R180"/>
+<element name="R3X12" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="40.64" rot="R180"/>
+<element name="R4X12" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="45.085" rot="R180"/>
 <element name="U$1X12" library="SPCoast" package="IO4-IOB" value="" x="25.4" y="29.21"/>
 <element name="CON1X13" library="SPCoast" package="RJ24-INVERTED-PINS" value="" x="32.385" y="58.42" rot="R90"/>
 <element name="FID1X13" library="SPCoast" package="FIDUCIAL_1MM" value="" x="41.275" y="50.927"/>
 <element name="FID2X13" library="SPCoast" package="FIDUCIAL_1MM" value="" x="76.835" y="67.945"/>
-<element name="Q1X13" library="SPCoast" package="SOT23-3" value="" x="49.53" y="53.975"/>
-<element name="Q2X13" library="SPCoast" package="SOT23-3" value="" x="49.53" y="58.42"/>
-<element name="Q3X13" library="SPCoast" package="SOT23-3" value="" x="49.53" y="62.865"/>
-<element name="Q4X13" library="SPCoast" package="SOT23-3" value="" x="49.53" y="67.31"/>
-<element name="Q5X13" library="SPCoast" package="SOT23-3" value="" x="60.96" y="53.34" rot="R90"/>
-<element name="Q6X13" library="SPCoast" package="SOT23-3" value="" x="60.96" y="62.23" rot="R90"/>
-<element name="Q7X13" library="SPCoast" package="SOT23-3" value="" x="60.96" y="57.785" rot="R90"/>
-<element name="Q8X13" library="SPCoast" package="SOT23-3" value="" x="60.96" y="66.675" rot="R90"/>
-<element name="R1X13" library="SPCoast" package="0805-RES" value="" x="54.61" y="52.07" rot="R180"/>
-<element name="R2X13" library="SPCoast" package="0805-RES" value="" x="54.61" y="56.515" rot="R180"/>
-<element name="R3X13" library="SPCoast" package="0805-RES" value="" x="54.61" y="60.96" rot="R180"/>
-<element name="R4X13" library="SPCoast" package="0805-RES" value="" x="54.61" y="65.405" rot="R180"/>
+<element name="Q1X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="53.975"/>
+<element name="Q2X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="58.42"/>
+<element name="Q3X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="62.865"/>
+<element name="Q4X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="67.31"/>
+<element name="Q5X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="53.34" rot="R90"/>
+<element name="Q6X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="62.23" rot="R90"/>
+<element name="Q7X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="57.785" rot="R90"/>
+<element name="Q8X13" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="66.675" rot="R90"/>
+<element name="R1X13" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="52.07" rot="R180"/>
+<element name="R2X13" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="56.515" rot="R180"/>
+<element name="R3X13" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="60.96" rot="R180"/>
+<element name="R4X13" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="65.405" rot="R180"/>
 <element name="U$1X13" library="SPCoast" package="IO4-IOB" value="" x="25.4" y="49.53"/>
 <element name="CON1X14" library="SPCoast" package="RJ24-INVERTED-PINS" value="" x="32.385" y="78.74" rot="R90"/>
 <element name="FID1X14" library="SPCoast" package="FIDUCIAL_1MM" value="" x="41.275" y="71.247"/>
 <element name="FID2X14" library="SPCoast" package="FIDUCIAL_1MM" value="" x="76.835" y="88.265"/>
-<element name="Q1X14" library="SPCoast" package="SOT23-3" value="" x="49.53" y="74.295"/>
-<element name="Q2X14" library="SPCoast" package="SOT23-3" value="" x="49.53" y="78.74"/>
-<element name="Q3X14" library="SPCoast" package="SOT23-3" value="" x="49.53" y="83.185"/>
-<element name="Q4X14" library="SPCoast" package="SOT23-3" value="" x="49.53" y="87.63"/>
-<element name="Q5X14" library="SPCoast" package="SOT23-3" value="" x="60.96" y="73.66" rot="R90"/>
-<element name="Q6X14" library="SPCoast" package="SOT23-3" value="" x="60.96" y="82.55" rot="R90"/>
-<element name="Q7X14" library="SPCoast" package="SOT23-3" value="" x="60.96" y="78.105" rot="R90"/>
-<element name="Q8X14" library="SPCoast" package="SOT23-3" value="" x="60.96" y="86.995" rot="R90"/>
-<element name="R1X14" library="SPCoast" package="0805-RES" value="" x="54.61" y="72.39" rot="R180"/>
-<element name="R2X14" library="SPCoast" package="0805-RES" value="" x="54.61" y="76.835" rot="R180"/>
-<element name="R3X14" library="SPCoast" package="0805-RES" value="" x="54.61" y="81.28" rot="R180"/>
-<element name="R4X14" library="SPCoast" package="0805-RES" value="" x="54.61" y="85.725" rot="R180"/>
+<element name="Q1X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="74.295"/>
+<element name="Q2X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="78.74"/>
+<element name="Q3X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="83.185"/>
+<element name="Q4X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="49.53" y="87.63"/>
+<element name="Q5X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="73.66" rot="R90"/>
+<element name="Q6X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="82.55" rot="R90"/>
+<element name="Q7X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="78.105" rot="R90"/>
+<element name="Q8X14" library="SPCoast" package="SOT23-3" value="MOSFET-N" x="60.96" y="86.995" rot="R90"/>
+<element name="R1X14" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="72.39" rot="R180"/>
+<element name="R2X14" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="76.835" rot="R180"/>
+<element name="R3X14" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="81.28" rot="R180"/>
+<element name="R4X14" library="SPCoast" package="0805-RES" value="10k" x="54.61" y="85.725" rot="R180"/>
 <element name="U$1X14" library="SPCoast" package="IO4-IOB" value="" x="25.4" y="69.85"/>
 <element name="U$1X1" library="SPCoast" package="BOARD-DINRAIL-3.17IN-H4X-IOB" value="" x="0" y="0"/>
 </elements>
