@@ -667,7 +667,7 @@
 <wire x1="50.038" y1="1.27" x2="51.943" y2="1.27" width="2.1844" layer="22"/>
 <text x="38.227" y="18.288" size="1.27" layer="22" font="vector" rot="MR0">IOB to IO4 Interface</text>
 <text x="39.751" y="0.508" size="1.016" layer="22" font="vector" rot="MR0">Made in the PCR, Coast Div, NMRA</text>
-<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is   Fun!</text>
+<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is Fun!</text>
 <wire x1="43.053" y1="19.05" x2="43.053" y2="1.27" width="1.27" layer="22"/>
 </package>
 <package name="FIDUCIAL_1MM">
@@ -753,7 +753,7 @@
 <hole x="-5.08" y="0" drill="3.2512"/>
 <hole x="5.08" y="0" drill="3.2512"/>
 </package>
-<package name="IOB-IO4-CLEAN">
+<package name="IOB-IO4-NOBOTSILK">
 <wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
 <wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
 <wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
@@ -1191,7 +1191,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <gate name="IOB" symbol="IO4-IOB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="BARE" package="IO4-IOB">
+<device name="FULL" package="IO4-IOB">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -1206,7 +1206,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <technology name=""/>
 </technologies>
 </device>
-<device name="CLEAN" package="IOB-IO4-CLEAN">
+<device name="NOBSILK" package="IOB-IO4-NOBOTSILK">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -1331,7 +1331,7 @@ By microbuilder.eu&lt;/p&gt;</description>
 <part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-IO4" device="IPINS"/>
-<part name="U$1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE"/>
+<part name="U$1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="FULL"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="VCC1" library="SPCoast" deviceset="VCCIO" device=""/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
